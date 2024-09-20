@@ -1,7 +1,7 @@
 // https://docs.expo.dev/guides/using-eslint/
 module.exports = {
 	extends: ['expo', 'prettier'],
-	plugins: ['prettier'],
+	plugins: ['prettier', 'eslint-plugin-paths'],
 	rules: {
 		indent: ['error', 'tab'],
 		'prettier/prettier': [
@@ -13,5 +13,6 @@ module.exports = {
 				trailingComma: 'all',
 			},
 		],
+		'paths/alias': 'error',
 	},
 };
