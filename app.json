@@ -14,14 +14,16 @@
 		},
 		"ios": {
 			"supportsTablet": true,
-			"bundleIdentifier": "com.brocketgames.untitledpuzzle"
+			"bundleIdentifier": "com.brocketgames.untitledpuzzle",
+			"buildNumber": "1"
 		},
 		"android": {
 			"adaptiveIcon": {
 				"foregroundImage": "./assets/images/adaptive-icon.png",
 				"backgroundColor": "#ffffff"
 			},
-			"package": "com.brocketgames.untitledpuzzle"
+			"package": "com.brocketgames.untitledpuzzle",
+			"versionCode": 1
 		},
 		"web": {
 			"favicon": "./assets/images/favicon.png"
